@@ -1,0 +1,15 @@
+.container {
+    width: 1000px;
+    display: flex;
+    h1 {
+        color: $white;
+        font-weight: bold;
+    }
+    p {
+        color: $white;
+        background-color: $p_bg_color;
+        width: 300px;
+        border-radius: 10px;
+        justify-items: center;
+    }
+}
