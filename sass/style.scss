@@ -1,15 +1,28 @@
+@import 'variables';
+
 .container {
     width: 1000px;
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
     h1 {
-        color: $white;
+        text-align: center;
         font-weight: bold;
+        color: $h1;
     }
-    p {
+    .song {
+        display: flex;
         color: $white;
-        background-color: $p_bg_color;
-        width: 300px;
-        border-radius: 10px;
-        justify-items: center;
+        justify-content: center;
+        width: 1000px;
+        
+        p {
+            width: 35%;
+            padding: 10px 10px;
+            margin: 10px 0;
+            background-color: $p_bg_color;
+            border-radius: 10px;
+        }
     }
 }
